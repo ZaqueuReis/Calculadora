@@ -44,7 +44,7 @@ def atualizar_figura_nova(event):
         y2 = y1 + raio if event.y >= y1 else y1 - raio
 
         figura_nova = (tipo, (x1, y1, x2, y2), borda, preenchimento)
-    
+
     else:
         figura_nova = (tipo, (valores[0], valores[1], event.x, event.y), borda, preenchimento)
 
@@ -61,7 +61,7 @@ tamanho_borda = 2
 
 def incluir_figura_nova(event): 
     if not incompleta(figura_nova): # para evitar incluir figuras incompletas, como uma linha sem comprimento ou um rabisco com um único ponto
-        figuras.append(figura_nova) 
+        figuras.append(figura_nova) ddddd
     desenhar_figuras()
 
 def desenhar_figuras():
