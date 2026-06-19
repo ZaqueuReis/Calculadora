@@ -6,4 +6,5 @@ print (f"{Tabuada} x 4 = {Tabuada * 4}")
 print (f"{Tabuada} x 5 = {Tabuada * 5}")
 print (f"{Tabuada} x 6 = {Tabuada * 6}")
 print (f"{Tabuada} x 7 = {Tabuada * 7}")
-print (f"{Tabu dapodofjoap
+print (f"{Tabuada} x 8 = {Tabuada * 8}")
+print (f"{Tabuada} x 9 = {Tabuada * 9}")
